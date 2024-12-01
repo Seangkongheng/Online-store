@@ -1,7 +1,7 @@
 <?php  
 session_start();
 require_once('connectionFront.php');
-$conn = new mysqli('localhost', 'root','','booksell');
+$conn = new mysqli('localhost', 'root','','ecommerce');
 if(isset($_POST['register']))
 {
     $fistName=$_POST['fistName'];
